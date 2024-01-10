@@ -1,6 +1,6 @@
 ﻿namespace Clinik.Models
 {
-    public class DoctorCategory : BaseEntity
+    public class Category : BaseEntity
     {
         public string  CategoryName { get; set; }
 

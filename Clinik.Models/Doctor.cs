@@ -11,6 +11,7 @@ namespace Clinik.Models
         public string Name { get; set; }
 
         public ICollection<Appointment> Appointments { get; set; }
-        public DoctorCategory Category { get; set; }
+        public ICollection<Clinic> Clinics { get; set; }
+        public Category Category { get; set; }
     }
 }
